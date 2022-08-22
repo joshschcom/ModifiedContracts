@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
 import "./Vaulttoken.sol";          //An ERC20 Token which has the ownable and IERC20 import in it, notable functions are mint & burn, can be used with ./crc20.sol
 
-contract ownVault is Ownable {      
+contract smolVault is Ownable {      
     IERC20 public DepositToken;     //We define our two tokens interacting with the contract
     IERC20 public VaultToken;       
 
